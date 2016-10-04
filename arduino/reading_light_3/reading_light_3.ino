@@ -36,7 +36,7 @@ Encoder knob(PIN_ENCODER_A, PIN_ENCODER_B);
 long knobPos = 0;
 int rainbowDirection = FORWARD;
 
-PirSleepDetection pirSleep(15, 2, 10);
+PirSleepDetection pirSleep(15, 5, 5);
 
 void setup() {
 	Serial.begin(9600);
